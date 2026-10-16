@@ -15,7 +15,7 @@ spec:
   source:
     repoURL: https://github.com/MarieBundschuh/helm.git
     targetRevision: HEAD
-    path: './petclinic'
+    path: '.'
     helm:
       valueFiles:
       - values.yaml
