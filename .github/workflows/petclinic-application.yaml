@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: petclinic
+  name: petclinic-new
   namespace: argocd
   annotations:
     argocd-image-updater.argoproj.io/image-list: spring-petclinic=ghcr.io/mariebundschuh/spring-petclinic:~4.0
