@@ -5,5 +5,5 @@ metadata:
   namespace: argocd
 spec:
   applicationRefs:
-    - namePattern: "petclinic"
+    - namePattern: "^petclinic-new$"
       useAnnotations: true
